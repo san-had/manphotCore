@@ -1,0 +1,47 @@
+﻿{
+    "varStar": {
+        "id": "s_cep",
+        "name": "S Cep",
+        "ra": "21:35",
+        "de": "78:37",
+        "checkstar": {
+            "label": "73",
+            "ra": "21:28",
+            "de": "+77:56",
+            "vcat": "7.311"
+        },
+        "compstars":  [
+            {
+                "sn": "1",
+                "label": "65",
+                "ra": "",
+                "de": "",
+                "vcat": "6.524"
+            },
+            {
+                "sn": "2",
+                "label": "75",
+                "ra": "",
+                "de": "",
+                "vcat": "7.462"
+            },
+            {
+                "sn": "3",
+                "label": "89",
+                "ra": "",
+                "de": "",
+                "vcat": "8.858"
+            },
+            {
+                "sn": "4",
+                "label": "98",
+                "ra": "",
+                "de": "",
+                "vcat": "9.798"
+            }
+        ],
+        "maps": ["S_Cep_AB","S_Cep_B"],
+		"mapid": "X20012EU",
+		"comment": "DSLR Canon 1100D"
+    }
+}

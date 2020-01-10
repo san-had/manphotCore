@@ -1,0 +1,47 @@
+﻿{
+    "varStar": {
+        "id": "r_crb",
+        "name": "R Crb",
+        "ra": "15:48",
+        "de": "28:09",
+        "checkstar": {
+            "label": "81",
+            "ra": "",
+            "de": "",
+            "vcat": "8.065"
+        },
+        "compstars":  [
+            {
+                "sn": "1",
+                "label": "74",
+                "ra": "",
+                "de": "",
+                "vcat": "7.427"
+            },
+            {
+                "sn": "2",
+                "label": "89",
+                "ra": "",
+                "de": "",
+                "vcat": "8.908"
+            },
+            {
+                "sn": "3",
+                "label": "87",
+                "ra": "",
+                "de": "",
+                "vcat": "8.747"
+            },
+            {
+                "sn": "4",
+                "label": "78",
+                "ra": "",
+                "de": "",
+                "vcat": "7.806"
+            }
+        ],
+        "maps": ["R_Crb_B"],
+		"mapid": "14685DXM",
+		"comment": "DSLR Canon 1100D"
+    }
+}

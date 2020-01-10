@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Manual Photometry</title>
+    <meta charset="utf-8" />
+    <link href="Styles/manPhot.css" rel="stylesheet" />
+    <link href="Styles/jquery-ui.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/jquery-ui-1.12.1.js"></script>
+    <script src="js/variables.js"></script>
+    <script src="js/manPhot.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <hgroup id="headerText">
+                <h1>Report Title</h1>
+            </hgroup>
+        </header>
+        <div class="inputContainer">
+            <div class="inputElementsContainer">
+                <select id="varSelector">
+                    <option value="r_tri">R Tri</option>
+                    <option value="ac_her">AC Her</option>
+                    <option value="w_cyg">W Cyg</option>
+                    <option value="w_cyg_b">W Cyg_B</option>
+                    <option value="vv_cep">VV Cep</option>
+                    <option value="vv_cep_b">VV Cep_B</option>
+                    <option value="t_cep">T Cep</option>
+                    <option value="s_cep">S Cep</option>
+                    <option value="uu_aur">UU Aur</option>
+                    <option value="uu_aur_b">UU Aur_B</option>
+                    <option value="r_gem">R Gem</option>
+                    <option value="u_mon">U Mon</option>
+                    <option value="u_mon_b">U Mon_B</option>
+                    <option value="z_uma">Z Uma</option>
+                    <option value="s_uma">S Uma</option>
+                    <option value="ry_uma">RY Uma</option>
+                    <option value="t_uma">T Uma</option>
+                    <option value="ss_vir">SS Vir</option>
+                    <option value="v_boo">V Boo</option>
+                    <option value="r_boo">R Boo</option>
+                    <option value="r_crb">R Crb</option>
+                    <option value="chi_cyg">Chi Cyg</option>
+                    <option value="chi_cyg_b">Chi Cyg_B</option>
+                    <option value="test_vv_cep">Test_VV Cep</option>
+                </select>
+            </div>
+            <div class="inputElementsContainer">
+                <label>Date:</label>
+                <input type="text" id="obsDate" value="" />
+            </div>
+            <div class="inputElementsContainer">
+                <label>Hour:</label>
+                <input type="text" id="obsHour" value="" />
+            </div>
+            <div class="inputElementsContainer">
+                <label>Minutes:</label>
+                <input type="text" id="obsMin" value="" />
+            </div>
+            <div class="inputElementsContainer">
+                <label>JD:&nbsp;<span id="jd"></span></label>
+            </div>
+        </div>
+        <div class="tableContainer">
+            <label>Target Star Table</label>
+            <table id="target">
+                <thead>
+                    <tr>
+                        <th>Star</th>
+                        <th>RA</th>
+                        <th>D</th>
+                        <th>I Mag</th>
+                        <th>V Mag</th>
+                        <th>Error</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="tableContainer">
+            <label>Check Star Table</label>
+            <table id="check">
+                <thead>
+                    <tr>
+                        <th>Star</th>
+                        <th>RA</th>
+                        <th>D</th>
+                        <th>V Cat</th>
+                        <th>Check I Mag</th>
+                        <th>Check V Mag</th>
+                        <th>Error</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="tableContainer">
+            <label>Transformation Coefficient output table</label>
+            <table id="lineData">
+                <tr>
+                    <td>Slope:</td>
+                    <td id="slope"></td>
+                    <td>Intercept:</td>
+                    <td id="intercept"></td>
+                    <td>R2:</td>
+                    <td id="r2"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tableContainer">
+            <label>Comparison Star Table</label>
+            <table id="comparison">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Star</th>
+                        <th>RA</th>
+                        <th>D</th>
+                        <th>V Cat</th>
+                        <th>I mag</th>
+                        <th>Fit Value</th>
+                        <th>Error</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="tableContainer">
+            <label>Maps:</label>
+            <table id="maps">
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="tableContainer">
+            <div class="buttonContainer">
+                <button id="btnReset">Reset</button>
+            </div>
+            <div class="buttonContainer">
+                <button id="btnSave">Save</button>
+            </div>
+            <div class="buttonContainer">
+                <button id="btnRefresh">Refresh</button>
+            </div>
+        </div>
+    </div>
+    <div id="resultDiv">
+        <table id="varstars">
+            <tbody></tbody>
+        </table>
+    </div>
+    <div class="tableContainer">
+        <div class="buttonContainer">
+            <button id="btnDelete">Delete All</button>
+        </div>
+    </div>
+</body>
+</html>

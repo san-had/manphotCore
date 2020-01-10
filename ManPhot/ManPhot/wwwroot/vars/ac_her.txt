@@ -1,0 +1,54 @@
+{
+    "varStar": {
+        "id": "ac_her",
+        "name": "AC Her",
+        "ra": "21:36",
+        "de": "+45:51",
+        "checkstar": {
+            "label": "72",
+            "ra": "",
+            "de": "",
+            "vcat": "7.235"
+        },
+        "compstars":  [
+            {
+                "sn": "1",
+                "label": "56",
+                "ra": "",
+                "de": "",
+                "vcat": "5.610"
+            },
+            {
+                "sn": "2",
+                "label": "69",
+                "ra": "",
+                "de": "",
+                "vcat": "6.917"
+            },
+            {
+                "sn": "3",
+                "label": "74",
+                "ra": "",
+                "de": "",
+                "vcat": "7.404"
+            },
+            {
+                "sn": "4",
+                "label": "65",
+                "ra": "",
+                "de": "",
+                "vcat": "6.485"
+            },
+            {
+                "sn": "5",
+                "label": "82",
+                "ra": "",
+                "de": "",
+                "vcat": "8.237"
+            }
+        ],
+        "maps": ["AC_Her_AB"],
+		"mapid": "X24922WB",
+		"comment": "DSLR Canon 1100D"
+    }
+}

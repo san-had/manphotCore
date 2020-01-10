@@ -1,0 +1,47 @@
+﻿{
+    "varStar": {
+        "id": "ss_vir",
+        "name": "SS Vir",
+        "ra": "12:25",
+        "de": "00:46",
+        "checkstar": {
+            "label": "67",
+            "ra": "",
+            "de": "",
+            "vcat": "6.730"
+        },
+        "compstars":  [
+            {
+                "sn": "1",
+                "label": "63",
+                "ra": "",
+                "de": "",
+                "vcat": "6.334"
+            },
+            {
+                "sn": "2",
+                "label": "71",
+                "ra": "",
+                "de": "",
+                "vcat": "7.064"
+            },
+            {
+                "sn": "3",
+                "label": "75",
+                "ra": "12:25",
+                "de": "+4",
+                "vcat": "7.497"
+            },
+            {
+                "sn": "4",
+                "label": "87",
+                "ra": "",
+                "de": "",
+                "vcat": "8.682"
+            }
+        ],
+        "maps": ["SS_Vir_A", "SS_Vir_B"],
+		"mapid": "13131EOB",
+		"comment": "DSLR Canon 1100D"
+    }
+}

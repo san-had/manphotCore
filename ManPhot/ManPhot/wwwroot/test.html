@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/qunit.css" rel="stylesheet" />
+    <script src="Scripts/qunit.js"></script>
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/jquery-ui-1.12.1.js"></script>
+    <script src="js/variables.js"></script>
+    <script src="js/manPhot.js"></script>
+    <script src="js/tests.js"></script>
+</head>
+<body>
+    <h1 id="qunit-header">QUnit example</h1>
+    <h2 id="qunit-banner"></h2>
+    <div id="qunit-testrunner-toolbar"></div>
+    <h2 id="qunit-userAgent"></h2>
+    <ol id="qunit-tests"></ol>
+    <div id="qunit-fixture">
+        test markup, will be hidden
+        <div id="container">
+            <header>
+                <hgroup id="headerText">
+                    <h1>Report Title</h1>
+                </hgroup>
+            </header>
+            <div class="inputContainer">
+                <div class="inputElementsContainer">
+                    <select id="varSelector">
+                        <option value="vv_cep">VV Cep</option>
+                        <option value="w_cyg">W Cyg</option>
+                        <option value="uu_aur">UU Aur</option>
+                    </select>
+                </div>
+                <div class="inputElementsContainer">
+                    <label>Date:</label>
+                    <input type="text" id="obsDate" value="" />
+                </div>
+                <div class="inputElementsContainer">
+                    <label>Hour:</label>
+                    <input type="text" id="obsHour" value="" />
+                </div>
+                <div class="inputElementsContainer">
+                    <label>Minutes:</label>
+                    <input type="text" id="obsMin" value="" />
+                </div>
+                <div class="inputElementsContainer">
+                    <label>JD:&nbsp;<span id="jd"></span></label>
+                </div>
+            </div>
+            <div class="tableContainer">
+                <label>Target Star Table</label>
+                <table id="target">
+                    <thead>
+                        <tr>
+                            <th>Star</th>
+                            <th>RA</th>
+                            <th>D</th>
+                            <th>I Mag</th>
+                            <th>V Mag</th>
+                            <th>Error</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="tableContainer">
+                <label>Check Star Table</label>
+                <table id="check">
+                    <thead>
+                        <tr>
+                            <th>Star</th>
+                            <th>RA</th>
+                            <th>D</th>
+                            <th>V Cat</th>
+                            <th>Check I Mag</th>
+                            <th>Check V Mag</th>
+                            <th>Error</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="tableContainer">
+                <label>Transformation Coefficient output table</label>
+                <table id="lineData">
+                    <tr>
+                        <td>Slope:</td>
+                        <td id="slope"></td>
+                        <td>Intercept:</td>
+                        <td id="intercept"></td>
+                        <td>R2:</td>
+                        <td id="r2"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tableContainer">
+                <label>Comparison Star Table</label>
+                <table id="comparison">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Star</th>
+                            <th>RA</th>
+                            <th>D</th>
+                            <th>V Cat</th>
+                            <th>I mag</th>
+                            <th>Fit Value</th>
+                            <th>Error</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="tableContainer">
+                <label>Maps:</label>
+                <table id="maps">
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="tableContainer">
+                <div class="buttonContainer">
+                    <button id="btnReset">Reset</button>
+                </div>
+                <div class="buttonContainer">
+                    <button id="btnSave">Save</button>
+                </div>
+                <div class="buttonContainer">
+                    <button id="btnRefresh">Refresh</button>
+                </div>
+            </div>
+        </div>    
+    </div>
+</body>
+</html>

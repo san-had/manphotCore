@@ -1,0 +1,54 @@
+﻿{
+    "varStar": {
+        "id": "ry_uma",
+        "name": "RY Uma",
+        "ra": "12:20",
+        "de": "61:18",
+        "checkstar": {
+            "label": "74",
+            "ra": "12:25",
+            "de": "+60",
+            "vcat": "7.360"
+        },
+        "compstars":  [
+            {
+                "sn": "1",
+                "label": "63",
+                "ra": "",
+                "de": "",
+                "vcat": "6.320"
+            },
+            {
+                "sn": "2",
+                "label": "67",
+                "ra": "",
+                "de": "",
+                "vcat": "6.735"
+            },
+            {
+                "sn": "3",
+                "label": "77",
+                "ra": "",
+                "de": "",
+                "vcat": "7.684"
+            },
+            {
+                "sn": "4",
+                "label": "61",
+                "ra": "12:30",
+                "de": "",
+                "vcat": "6.080"
+            },
+            {
+                "sn": "5",
+                "label": "70",
+                "ra": "",
+                "de": "",
+                "vcat": "7.050"
+            }
+        ],
+        "maps": ["RY_UMA_Aspec"],
+		"mapid": "13300EYJ",
+		"comment": "DSLR Canon 1100D"
+    }
+}

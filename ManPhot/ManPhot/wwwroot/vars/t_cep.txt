@@ -1,0 +1,47 @@
+﻿{
+    "varStar": {
+        "id": "t_cep",
+        "name": "T Cep",
+        "ra": "21:09",
+        "de": "+63",
+        "checkstar": {
+            "label": "67",
+            "ra": "",
+            "de": "",
+            "vcat": "6.727"
+        },
+        "compstars":  [
+            {
+                "sn": "1",
+                "label": "69",
+                "ra": "",
+                "de": "",
+                "vcat": "6.883"
+            },
+            {
+                "sn": "2",
+                "label": "81",
+                "ra": "",
+                "de": "",
+                "vcat": "8.105"
+            },
+            {
+                "sn": "3",
+                "label": "90",
+                "ra": "",
+                "de": "",
+                "vcat": "9.030"
+            },
+            {
+                "sn": "4",
+                "label": "97",
+                "ra": "",
+                "de": "",
+                "vcat": "9.721"
+            }
+        ],
+        "maps": ["T_Cep", "T_Cep_B"],
+		"mapid": "13236DFN",
+		"comment": "DSLR Canon 1100D"
+    }
+}

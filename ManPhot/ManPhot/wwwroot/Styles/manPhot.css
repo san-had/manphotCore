@@ -1,0 +1,209 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside, footer, header, hgroup, nav {
+    display: block;
+}
+
+body {
+    padding: 10px;
+}
+
+header {
+    position: relative;
+    padding-bottom:20px;
+    top: 0px;
+    width: 100%;
+}
+
+label {
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bolder;
+    display:inline
+}
+
+select {
+    font-family: Arial;
+    width:100px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+table {
+    width: 800px;
+}
+
+th {
+    background-color:ActiveBorder;
+    width: 80px;
+}
+
+td {
+    text-align:center;
+    height:25px;
+}
+
+input[type=text], input[type=number] {
+    background-color:lightyellow;
+    width: 98%;
+    height:100%;
+    text-align:right;
+}
+
+button {
+    width: 100px;
+    background-color:aliceblue;
+    border: inset;
+}
+
+.tableContainer {
+    padding-top:30px;
+    width:100%;
+}
+
+.buttonContainer {
+    float: left;
+    width: 13%;
+}
+
+.inputContainer {
+    padding-bottom:30px;
+}
+
+.inputElementsContainer {
+    float: left;
+    width: 154px;
+}
+
+.cord {
+    background-color:lightgreen
+}
+
+.vcat {
+    background-color:lightgreen;
+    font-weight:bolder;
+}
+
+.vcatComp {
+    background-color:lightgreen;
+    font-weight:bolder;
+}
+
+.vmag {
+    font-size:18px;
+    font-weight:bolder;
+    background-color:#ffb400;
+}
+
+.fvmag {
+    background-color:#ffd800;
+}
+
+.id {
+    font-size:18px;
+    font-weight:bolder;
+    color: orangered;
+    background-color:antiquewhite;
+}
+
+.star {
+    font-size:18px;
+    font-weight:bolder;
+    color: darkblue;
+    background-color:antiquewhite;
+}
+
+.error {
+    font-weight:bolder;
+    color: cornflowerblue;
+    background-color: lavender
+}
+
+.targetError {
+    font-size:18px;
+    font-weight:bolder;
+    background-color:#ffb400;
+}
+
+.text{
+  mso-number-format:"\@";/*force text*/
+}
+
+input[name=dateTimeInput] {
+    width:90px;
+}
+
+#targetStar {
+    font-size:18px;
+    font-weight:bolder;
+    color: orangered;
+    background-color:antiquewhite;
+}
+
+#lineData td {
+    font-weight:bolder;
+    background-color:antiquewhite;
+}
+
+#r2 {
+    font-size:20px;
+    color: darkblue;
+}
+
+#btnReset {
+    background-color:#e8acca
+}
+
+#btnDelete {
+    background-color:orangered;
+}
+
+#obsDate {
+     width:80px;
+}
+
+#obsHour {
+    width:20px;
+}
+
+#obsMin {
+    width:20px;
+}
+
+#resultDiv {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    clear:both;
+    width: 100%;
+}
+
+#varstars {
+    border:solid;
+    border: 1px solid #E1E1E1;
+    margin: 0px;
+    padding: 0px;
+}
+
+#varstars tbody tr:nth-child(even) {
+    background-color: antiquewhite;     
+}
+
+#varstars tbody tr:nth-child(odd) {
+    background-color: gainsboro; 
+}
+
+#varstars td {
+    margin: 0px;
+    //padding: 5px 10px;
+    padding: 0px;
+    text-align:left;
+}
+
+

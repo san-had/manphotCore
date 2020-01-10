@@ -1,0 +1,54 @@
+﻿{
+    "varStar": {
+        "id": "r_boo",
+        "name": "R Boo",
+        "ra": "14:37",
+        "de": "26:44",
+        "checkstar": {
+            "label": "60",
+            "ra": "",
+            "de": "",
+            "vcat": "6.010"
+        },
+        "compstars":  [
+            {
+                "sn": "1",
+                "label": "58",
+                "ra": "",
+                "de": "",
+                "vcat": "5.800"
+            },
+            {
+                "sn": "2",
+                "label": "81",
+                "ra": "",
+                "de": "",
+                "vcat": "8.132"
+            },
+            {
+                "sn": "3",
+                "label": "70",
+                "ra": "",
+                "de": "",
+                "vcat": "7.011"
+            },
+            {
+                "sn": "4",
+                "label": "74",
+                "ra": "",
+                "de": "",
+                "vcat": "7.428"
+            },
+            {
+                "sn": "5",
+                "label": "62",
+                "ra": "",
+                "de": "",
+                "vcat": "6.235"
+            }
+        ],
+        "maps": ["R_Boo_AB"],
+		"mapid": "X17057TI",
+		"comment": "DSLR Canon 1100D"
+    }
+}
