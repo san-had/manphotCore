@@ -22,16 +22,18 @@ namespace ManPhot
 
         private static string GetWebRootPath()
         {
+            System.Diagnostics.Debugger.Launch();
             const string BinFolderName = "bin";
             const string WwwRootFolderName = "wwwroot";
+            const string ManPhotFolderName = "ManPhot";
 
             var currentDirectoryArray = Directory.GetCurrentDirectory().Split('\\');
 
-            var length = Array.FindIndex(currentDirectoryArray, dir => dir == BinFolderName) + 1;
+            var length = Array.FindLastIndex(currentDirectoryArray, dir => dir == ManPhotFolderName) + 2;
 
             var webRootPathArray = new string[length];
 
-            Array.Copy(currentDirectoryArray, webRootPathArray, length - 1);
+            Array.Copy(currentDirectoryArray, webRootPathArray, length);
 
             webRootPathArray[length - 1] = WwwRootFolderName;
 
