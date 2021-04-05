@@ -27,20 +27,20 @@
             },
             {
                 "sn": "3",
-                "label": "87",
-                "ra": "",
-                "de": "",
-                "vcat": "8.747"
-            },
-            {
-                "sn": "4",
                 "label": "78",
                 "ra": "",
                 "de": "",
                 "vcat": "7.806"
+            },
+            {
+                "sn": "4",
+                "label": "65",
+                "ra": "",
+                "de": "",
+                "vcat": "6.52"
             }
         ],
-        "maps": ["R_Crb_B"],
+        "maps": ["R_Crb_B","R_Crb_AB"],
 		"mapid": "14685DXM",
 		"comment": "DSLR Canon 1100D"
     }
