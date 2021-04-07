@@ -22,7 +22,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_FORWARDEDHEADERS_ENABLED": "true"
       },
-      "applicationUrl": "http://localhost:5000"
+      "applicationUrl": "http://localhost:5010"
     }
   }
 }
