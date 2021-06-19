@@ -18,9 +18,10 @@
     "ManPhot": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "manPhot.html",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_FORWARDEDHEADERS_ENABLED": "true"
+        "ASPNETCORE_FORWARDEDHEADERS_ENABLED": "true",
+        "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:5010"
     }
