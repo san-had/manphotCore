@@ -1,61 +1,54 @@
 ﻿{
     "varStar": {
-        "id": "v1405_cas",
-        "name": "V1405 Cas",
-        "ra": "23:25",
-        "de": "+61:11",
+        "id": "ch_cyg",
+        "name": "CH Cyg",
+        "ra": "19:25",
+        "de": "+50:14",
         "checkstar": {
-            "label": "67",
+            "label": "81",
             "ra": "",
             "de": "",
-            "vcat": "6.74"
+            "vcat": "8.135"
         },
         "compstars":  [
             {
                 "sn": "1",
-                "label": "50",
+                "label": "83",
                 "ra": "",
                 "de": "",
-                "vcat": "4.975"
+                "vcat": "8.330"
             },
             {
                 "sn": "2",
-                "label": "77",
+                "label": "65",
                 "ra": "",
                 "de": "",
-                "vcat": "7.701"
+                "vcat": "6.506"
             },
             {
                 "sn": "3",
-                "label": "81",
+                "label": "93",
                 "ra": "",
                 "de": "",
-                "vcat": "8.056"
+                "vcat": "9.316"
             },
             {
                 "sn": "4",
-                "label": "66",
+                "label": "63",
                 "ra": "",
                 "de": "",
-                "vcat": "6.628"
+                "vcat": "6.324"
             },
             {
                 "sn": "5",
-                "label": "56",
+                "label": "73",
                 "ra": "",
                 "de": "",
-                "vcat": "5.560"
-            },
-            {
-                "sn": "6",
-                "label": "64",
-                "ra": "",
-                "de": "",
-                "vcat": "6.400"
+                "vcat": "7.251"
             }
         ],
-        "maps": ["V1405_Cas_AB"],
-		"mapid": "X26649GR",
+        "maps": ["CH_Cyg_AB"],
+		"mapid": "X27952T",
 		"comment": "DSLR Canon 1100D"
     }
 }
